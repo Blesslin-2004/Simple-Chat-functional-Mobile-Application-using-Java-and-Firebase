@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423796949790",
+    "project_id": "fineapp-c8b0a",
+    "storage_bucket": "fineapp-c8b0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423796949790:android:260726ff8e9a95cf66ff0f",
+        "android_client_info": {
+          "package_name": "com.example.exampletwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423796949790-a6hfjdv2s605k1e74cbs1gtl5v670784.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOPwQ1BQonHivwZFQTuxWXy63YveU4Btg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423796949790-a6hfjdv2s605k1e74cbs1gtl5v670784.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

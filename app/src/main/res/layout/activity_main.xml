@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+android:layout_marginLeft="160dp"    >
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/profilepic"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_gravity="center"
+       android:src="@drawable/account"
+       android:foreground="@drawable/shape"
+       android:layout_marginTop="50dp"
+       android:scaleType="centerCrop"
+       />
+
+   <ImageView
+       android:id="@+id/plus"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/add"
+      android:layout_alignRight="@+id/profilepic"
+       android:layout_marginTop="110dp"
+       android:layout_marginRight="10dp"
+       android:background="@drawable/shape"
+       android:backgroundTint="@color/white"
+       />
+ </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Username :"
+        android:fontFamily="@font/opensans"
+        android:layout_marginHorizontal="13dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="example_7"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@drawable/rectangle"
+        />
+
+    <Button
+        android:id="@+id/combtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Complete"
+        android:textColor="@color/platinumgrey"
+        android:background="@drawable/rectangle"
+        />
+
+
+
+
+
+
+</LinearLayout>
